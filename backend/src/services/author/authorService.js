@@ -11,7 +11,6 @@ exports.all = () => {
     return authors
 };
 
-
 exports.find = (author) => {
     return authors.filter(a => a.id == author)[0];
 };

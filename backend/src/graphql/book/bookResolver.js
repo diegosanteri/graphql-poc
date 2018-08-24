@@ -2,7 +2,7 @@ const bookService = require('../../services/book/bookService');
 
 module.exports = {
   Query: {
-    books: (obj, args) => bookService.all(args)
+    books: (obj, args) => bookService.all()
   },
 
   Book: {
