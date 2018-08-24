@@ -1,0 +1,17 @@
+{
+  "name": "graphql-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.5",
+    "apollo-server-express": "^2.0.4",
+    "cors": "^2.8.4",
+    "graphql": "^0.13.2"
+  }
+}
